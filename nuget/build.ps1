@@ -22,7 +22,7 @@ param (
 )
 
 $null = New-Item -ItemType Directory -Force -Path $OutputDir
-$outputs = $Variants | ForEach-Object { Join-Path $OutputDir Kyaru.Texture2DDecoder.$_.*.nupkg }
+$outputs = $Variants | ForEach-Object { Join-Path $OutputDir Lego-Fan9.Texture2DDecoder.$_.*.nupkg }
 
 Write-Output ($PSStyle.Foreground.Cyan + "Building $Variants" + $PSStyle.Reset)
 

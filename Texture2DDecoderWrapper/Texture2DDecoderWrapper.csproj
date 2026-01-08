@@ -9,9 +9,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>Kyaru.Texture2DDecoder</PackageId>
-    <PackageProjectUrl>https://github.com/KiruyaMomochi/Texture2DDecoder</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/KiruyaMomochi/Texture2DDecoder</RepositoryUrl>
+    <PackageId>Lego-Fan9.Texture2DDecoder</PackageId>
+    <PackageProjectUrl>https://github.com/Lego-Fan9/Texture2DDecoder</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Lego-Fan9/Texture2DDecoder</RepositoryUrl>
     <RepositoryType>git</RepositoryType> 
     <PackageTags>unity</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
