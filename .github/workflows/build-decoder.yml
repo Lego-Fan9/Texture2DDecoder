@@ -13,7 +13,7 @@ env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
   BUILD_TYPE: Release
   PROJECT_NAME: Texture2DDecoderNative
-  ARCHS: "x86,x64,arm64"
+  ARCHS: x86, x64, arm64
 
 defaults:
   run:
@@ -55,8 +55,8 @@ jobs:
         run: |
           sudo dpkg --add-architecture i386
           sudo apt update
-          sudo apt install -yq gcc-multilib g++-multilib gcc-aarch64-linux-gnu g++-aarch64-linux-gnu gcc-13-aarch64-linux-gnu g++-13-aarch64-linux-gnu
-
+          sudo apt install -yq gcc-multilib g++-multilib
+          sudo apt install -yq gcc-aarch64-linux-gnu g++-aarch64-linux-gnu gcc-13-aarch64-linux-gnu g++-13-aarch64-linux-gnu
       - name: Install Ninja
         run: |
           sudo apt install -yq ninja-build
