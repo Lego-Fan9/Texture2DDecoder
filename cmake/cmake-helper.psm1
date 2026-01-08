@@ -273,7 +273,7 @@ function Invoke-CMakeBuild {
     if ($PSCmdlet.ShouldProcess('cmake', $confArgs)) {
         if ($Wasm) {
             Write-Output ($PSStyle.Foreground.Cyan + "Configure with emcmake and args: $confArgs" + $PSStyle.Reset)
-            bash -c "source $env:EMSDK/emsdk_env.sh && emcmake cmake $($confArgs -join ' ')"
+            emcmake cmake @confArgs
         }
         else {
             Write-Output ($PSStyle.Foreground.Cyan + "Configure with args: $confArgs" + $PSStyle.Reset)
