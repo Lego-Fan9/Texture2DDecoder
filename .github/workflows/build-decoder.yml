@@ -134,13 +134,11 @@ jobs:
           pwsh ${{ github.workspace }}/cmake/setup-emsdk.ps1 -EmsdkPath ${{ github.workspace }}/emsdk
 
       - name: Configure and Build
-        shell: bash
         run: |
-          source ${{ github.workspace }}/emsdk/emsdk_env.sh
-          pwsh -Command "
-            Import-Module (Join-Path '${{ github.workspace }}' cmake 'cmake-helper.psm1')
-            Invoke-CMakeBuild ${{ env.PROJECT_NAME }} ./build/browser-wasm -Generator Ninja -Wasm -Static
-          "
+          Import-Module (Join-Path '${{ github.workspace }}' cmake 'cmake-helper.psm1')
+          . ${{ github.workspace }}/emsdk/emsdk_env.ps1
+          Invoke-CMakeBuild ${{ env.PROJECT_NAME }} ./build/browser-wasm -Generator Ninja -Wasm -Static
+
       - name: Install
         run: |
           Import-Module (Join-Path '${{ github.workspace }}' cmake 'cmake-helper.psm1')
