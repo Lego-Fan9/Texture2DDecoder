@@ -30,7 +30,7 @@ set_target_properties(Texture2DDecoderNative PROPERTIES
 set_target_properties(Texture2DDecoderNative PROPERTIES
     FRAMEWORK ${BUILD_FRAMEWORK}
     FRAMEWORK_VERSION C
-    MACOSX_FRAMEWORK_IDENTIFIER com.kyaru.texture2DDecoderNative
+    MACOSX_FRAMEWORK_IDENTIFIER com.Lego-Fan9.texture2DDecoderNative
     # PUBLIC_HEADER dynamicFramework.h
     # XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY "iPhone Developer"
 )

@@ -5,7 +5,7 @@
         <PackageTags>unity;native;$(MSBuildProjectName.ToLower())</PackageTags>
         <PackageProjectUrl>https://github.com/Lego-Fan9/Texture2DDecoder</PackageProjectUrl>
         <RepositoryUrl>https://github.com/Lego-Fan9/Texture2DDecoder</RepositoryUrl>
-        <VersionPrefix>0.1.0</VersionPrefix>
+        <VersionPrefix>0.1.1</VersionPrefix>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
@@ -20,7 +20,7 @@
             $(MSBuildProjectName) Native library for $(LibraryName).
         </Description>
 
-        <PackageId>Kyaru.$(LibraryName).$(MSBuildProjectName)</PackageId>
+        <PackageId>Lego-Fan9.$(LibraryName).$(MSBuildProjectName)</PackageId>
         <TargetFramework>netstandard1.0</TargetFramework>
 
         <!-- https://github.com/NuGet/Home/issues/4254 -->

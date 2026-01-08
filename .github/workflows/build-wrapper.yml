@@ -1,4 +1,4 @@
-name: Texture2DDecoderWrapper 
+name: Texture2DDecoderWrapper
 
 on:
   push:
