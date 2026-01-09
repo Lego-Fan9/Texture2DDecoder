@@ -20,7 +20,7 @@
             $(MSBuildProjectName) Native library for $(LibraryName).
         </Description>
 
-        <PackageId>Kyaru.$(LibraryName).$(MSBuildProjectName)</PackageId>
+        <PackageId>Example.$(LibraryName).$(MSBuildProjectName)</PackageId>
         <TargetFramework>netstandard1.0</TargetFramework>
 
         <!-- https://github.com/NuGet/Home/issues/4254 -->
