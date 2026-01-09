@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>Example.Texture2DDecoder</PackageId>
+    <PackageId>Kyaru.Texture2DDecoder</PackageId>
     <PackageProjectUrl>https://github.com/KiruyaMomochi/Texture2DDecoder</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KiruyaMomochi/Texture2DDecoder</RepositoryUrl>
     <RepositoryType>git</RepositoryType> 
